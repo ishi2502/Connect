@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connect</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="firebase/login.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <!-- <input type="checkbox" name="" id=""> -->
+            <a href="index.html">
+                <img class="logo" style="height:3.5rem;" src="assets/logo.png">
+            </a>
+        </div>
+    </nav>
+
+    <div class="login-wrapper">
+        <div class="login_container">
+            <div class="login_img_container">
+                <img class="login_img" src="assets/login_img_prev_ui.png" />
+            </div>
+            <div class="login_form_container">
+                <div class="login_form">
+                    <div class="form_item">
+                        <label class="userid login_form_label">Username</label>
+                        <input type="text" class="userid_input login_input form-control" id="login_email"
+                            placeholder="Enter username" />
+                    </div>
+                    <div class="form_item">
+                        <label class="passwrd login_form_label">Password</label>
+                        <input class="pswrd_input login_input form-control" type="password" id="login_password"
+                            placeholder="Enter password" />
+                    </div>
+                    <div class="login_switch">
+                        <a href="forgetpass.html">Forgot Password</a>
+                    </div>
+                    <button id="login">
+                        LOGIN
+                    </button>
+                </div>
+
+                <span class="create_acc">New user? <a href="signup.html"> Create Account Here</a></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
