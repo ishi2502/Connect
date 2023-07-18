@@ -17,7 +17,6 @@ phoneno.readOnly=true;
 country.readOnly=true;
 state.readOnly=true;
 bio.readOnly=true;
-radioButtons.readOnly=true;
 
 
 function viewDetails(){
